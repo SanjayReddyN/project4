@@ -1,5 +1,7 @@
 struct stat;
 struct rtcdate;
+// Added uint type definition
+typedef unsigned int uint;
 
 // system calls
 int fork(void);
@@ -23,6 +25,7 @@ int getpid(void);
 char* sbrk(int);
 int sleep(int);
 int uptime(void);
+uint wmap(uint addr, int length, int flags, int fd);
 
 // ulib.c
 int stat(const char*, struct stat*);
