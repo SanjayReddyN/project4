@@ -9,5 +9,6 @@ int main(int argc, char* argv[]) {
 	int length = 0;
 	int flags = 0;
 	int fd = 0;
+	printf(1, "wmap test\n");
 	return wmap(addr, length, flags, fd);
 }

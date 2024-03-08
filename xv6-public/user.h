@@ -25,6 +25,7 @@ int getpid(void);
 char* sbrk(int);
 int sleep(int);
 int uptime(void);
+// P4
 uint wmap(uint addr, int length, int flags, int fd);
 
 // ulib.c
